@@ -8,13 +8,43 @@ body{
     background: rgb(255, 255, 255);
 }
 
+/* shared style */
+
+.btn{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    width: 168px;
+    height: 52px;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 6px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.btn span{
+    color: rgb(255, 255, 255);
+    width: 78px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.btn i{
+    color: rgb(255, 255, 255);;
+    width: 16px;
+    height: 14px;
+}
+
 /* navbar section styles */
 
 .navbar{
-    position: absolute;
-    left: 157px;
+    /* position: absolute; */
+    /* left: 157px;
     right: 158.06px;
-    top: 49px;
+    top: 49px; */
+    margin: 0px auto;
+    margin-top: 40px;
     width: 1124.94px;
     height: 48px;
     display: flex;
@@ -87,4 +117,62 @@ body{
     font-size: 16px;
     font-weight: 500px;
     line-height: 24px;
+}
+
+/* banner section styles */
+
+
+.banner-container{
+    background: rgb(254, 234, 233);
+    display: flex;
+    justify-content: space-between;
+    width: 1212px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 63px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.banner-content-text{
+    width: 554px;
+    height: 319px;
+    margin-left: 46px;
+    /* margin-right: 612px; */
+    margin-top: 68px;
+    margin-bottom: 68px;
+    text-align: left;
+}
+
+.banner-content-text h1{
+    color: rgb(31, 31, 31);
+    width: 5200px;
+    height: 84px;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.banner-content-text p{
+    color: rgb(78, 78, 78);
+    width: 456px;
+    height: 97px;
+}
+
+.banner-content-text h2{
+    color: rgb(255, 19, 111);
+    font-weight: 500px;
+    font-size: 41px;
+}
+
+.banner-content-image{
+    width: 402px;
+    height: 378px;
+    margin-top: 38px;
+    margin-right: 68px;
+    margin-bottom: 39px;
+}
+
+.banner-content-image img{
+    width: 402px;
+    height: 378px;
 }
