@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+
+/* navbar section styles */
+
+.navbar{
+    position: absolute;
+    left: 157px;
+    right: 158.06px;
+    top: 49px;
+    width: 1124.94px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 46px;
+}
+
+.navbar img{
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    font-size: 34px;
+    width: 120.09px;
+    height: 40.81px;
+    align-items: center;
+    text-align: left;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.input-style{
+    position: relative;
+    display: flex;
+    width: 508px;
+    height: 58px;
+    margin: 0px 35px;
+    padding: 12px;
+}
+
+.input-style input{
+    background: rgb(241, 241, 241);
+    width: 500px;
+    height: 48px;
+    display: flex;
+    border: none;
+    border-radius: 66px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 30px;
+}
+
+.input-style i{
+    /* background: rgb(186, 186, 186); */
+    color: rgb(186, 186, 186);
+    position: absolute;
+    top: 28px;
+    right: 25px;
+    width: 21px;
+    height: 20px;
+    
+}
+
+.nav-list{
+    width: 345px;
+    height: 24px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    /* margin: 0px 56px; */
+}
+
+.nav-list li, a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+}
