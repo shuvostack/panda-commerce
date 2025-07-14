@@ -12,6 +12,12 @@ body{
 
 /* shared style */
 
+
+.box-shadow{
+    box-shadow: 5px 5px 10px rgb(112, 112, 112);
+}
+
+
 .btn{
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
     width: 168px;
